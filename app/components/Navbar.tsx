@@ -1,5 +1,4 @@
 "use client";
-"use client";
 
 import { useState } from "react";
 import Image from "next/image";
@@ -61,18 +60,18 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="lg:hidden flex flex-col gap-3 mt-4 text-center font-medium text-slate-700">
-            <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
-            <Link href="/services">Services</Link>
-            <Link href="/internships">Internships</Link>
-            <Link href="/projects">Projects</Link>
-            <Link href="/blogs">Blogs</Link>
-            <Link href="/gallery">Gallery</Link>
-            <Link href="/careers">Careers</Link>
-            <Link href="/contact">Contact</Link>
-          </div>
-        )}
+        <div className="lg:hidden flex flex-col gap-3 mt-4 text-center font-medium text-slate-700">
+              <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
+              <Link href="/about" onClick={() => setMenuOpen(false)}>About</Link>
+              <Link href="/services" onClick={() => setMenuOpen(false)}>Services</Link>
+              <Link href="/internships" onClick={() => setMenuOpen(false)}>Internships</Link>
+              <Link href="/projects" onClick={() => setMenuOpen(false)}>Projects</Link>
+              <Link href="/blogs" onClick={() => setMenuOpen(false)}>Blogs</Link>
+              <Link href="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link>
+              <Link href="/careers" onClick={() => setMenuOpen(false)}>Careers</Link>
+              <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+        </div>
+      )}
 
       </div>
     </nav>
