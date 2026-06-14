@@ -7,6 +7,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: 'https://medicalogy-healthcare.vercel.app/about',
+      lastModified: new Date(),
+    },
+    {
       url: 'https://medicalogy-healthcare.vercel.app/services',
       lastModified: new Date(),
     },
@@ -19,7 +23,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: 'https://medicalogy-healthcare.vercel.app/blogs',
+      lastModified: new Date(),
+    },
+    {
       url: 'https://medicalogy-healthcare.vercel.app/gallery',
+      lastModified: new Date(),
+    },
+    {
+      url: 'https://medicalogy-healthcare.vercel.app/careers',
       lastModified: new Date(),
     },
     {
