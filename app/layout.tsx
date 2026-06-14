@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Medicalogy Healthcare",
     description:
       "Connecting Healthcare with Technology",
-    url: "https://medicalogy-healthcare.vercel.app",
+    url: "https://medicalogyhealthcare.in",
     siteName: "Medicalogy Healthcare",
     images: [
       {
