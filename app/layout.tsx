@@ -13,20 +13,40 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Medicalogy Healthcare | Biomedical Engineering Internships, Projects & Healthcare Solutions",
+  title: "Medicalogy Healthcare | Biomedical Internships, Projects & Medical Equipment Services",
   description:
-    "Medicalogy Healthcare provides Biomedical Engineering internships, academic projects, healthcare technology solutions, medical equipment services, training programs and industry-oriented learning opportunities.",
+    "Medicalogy Healthcare provides Biomedical Engineering internships, academic projects, medical equipment AMC/CMC services, healthcare technology solutions, and industry-oriented training programs.",
+
   keywords: [
     "Biomedical Engineering Internship",
+    "Biomedical Internship Chennai",
     "Biomedical Projects",
-    "Medical Equipment Service",
+    "Medical Equipment AMC",
+    "Medical Equipment CMC",
+    "Medical Equipment Maintenance",
     "Healthcare Technology",
     "Biomedical Training",
     "Medicalogy Healthcare",
-    "Biomedical Engineering Chennai",
-    "Biomedical Internship Chennai",
-    "Healthcare Solutions",
+    "Biomedical Engineering",
   ],
+
+  openGraph: {
+    title: "Medicalogy Healthcare",
+    description:
+      "Connecting Healthcare with Technology",
+    url: "https://medicalogy-healthcare.vercel.app",
+    siteName: "Medicalogy Healthcare",
+    images: [
+      {
+        url: "/logo-one.png",
+        width: 1200,
+        height: 630,
+        alt: "Medicalogy Healthcare",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
