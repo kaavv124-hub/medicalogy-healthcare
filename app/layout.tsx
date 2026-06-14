@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+   metadataBase: new URL("https://medicalogyhealthcare.in"),
   title: "Medicalogy Healthcare | Biomedical Internships, Projects & Medical Equipment Services",
   description:
     "Medicalogy Healthcare provides Biomedical Engineering internships, academic projects, medical equipment AMC/CMC services, healthcare technology solutions, and industry-oriented training programs.",
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
     siteName: "Medicalogy Healthcare",
     images: [
       {
-        url: "/logo-one.png",
+        url: "https://medicalogyhealthcare.in/logo-one.png",
         width: 1200,
         height: 630,
         alt: "Medicalogy Healthcare",
