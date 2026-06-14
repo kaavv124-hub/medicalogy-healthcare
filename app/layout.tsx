@@ -13,9 +13,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Medicalogy Healthcare",
-description:
-  "Medicalogy Healthcare - Connecting Healthcare with Technology",
+  title: "Medicalogy Healthcare | Biomedical Engineering Internships, Projects & Healthcare Solutions",
+  description:
+    "Medicalogy Healthcare provides Biomedical Engineering internships, academic projects, healthcare technology solutions, medical equipment services, training programs and industry-oriented learning opportunities.",
+  keywords: [
+    "Biomedical Engineering Internship",
+    "Biomedical Projects",
+    "Medical Equipment Service",
+    "Healthcare Technology",
+    "Biomedical Training",
+    "Medicalogy Healthcare",
+    "Biomedical Engineering Chennai",
+    "Biomedical Internship Chennai",
+    "Healthcare Solutions",
+  ],
 };
 
 export default function RootLayout({
