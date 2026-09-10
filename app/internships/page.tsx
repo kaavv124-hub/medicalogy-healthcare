@@ -272,8 +272,8 @@ export default function InternshipsPage() {
   </p>
 
   <img
-    src="/python_broucher.png"
-    alt="Medicalogy Internship Brochure"
+    src="/brochure.jpeg"
+    alt=" Latest Medicalogy Internship Brochure"
     className="w-full rounded-xl shadow-lg"
   />
 
