@@ -99,15 +99,33 @@ export default function ContactPage() {
 
         <div className="bg-white rounded-2xl shadow-xl p-10 text-center">
 
-          <p className="text-lg text-slate-700 mb-8">
-            Office address and Google Maps location will be updated soon.
-            For appointments, internships and training programs,
-            please contact us before visiting.
-          </p>
+          <div className="text-center mb-8">
+  <h3 className="text-2xl font-bold text-blue-700 mb-3">
+    Medicalogy Healthcare
+  </h3>
 
-          <div className="border-2 border-dashed border-slate-300 rounded-xl p-16 text-slate-500">
-            Google Map Location Coming Soon...
-          </div>
+  <p className="text-lg text-slate-700 leading-relaxed">
+    No. 135, Srivari Nagar, Kilkondaiyur, Karalapakkam,<br />
+    Thiruninravur, Chennai – 602024, Tamil Nadu, India
+  </p>
+
+  <p className="text-slate-600 mt-3">
+    For appointments, internships and training programs, please contact us before visiting.
+  </p>
+</div>
+
+          <div className="w-full overflow-hidden rounded-2xl shadow-xl">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.7846689785824!2d80.02877857484505!3d13.175972587158522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5287a8ab7f0341%3A0x82a0f405855f9932!2sMedicalogy%20Healthcare!5e0!3m2!1sen!2sin!4v1789030876656!5m2!1sen!2sin"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="strict-origin-when-cross-origin"
+              title="Medicalogy Healthcare Location"
+             />
+</div>
 
         </div>
 
